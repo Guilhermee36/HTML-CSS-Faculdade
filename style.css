@@ -1,0 +1,144 @@
+/* Reset básico */
+body, h1, h2, h3, p, a, ul, li, header, main, footer, section {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilo geral */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f9;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header */
+header {
+    background-color: #81beff;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+header a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+    font-weight: bold;
+}
+
+header a:hover {
+    text-decoration: underline;
+}
+
+/* Main Section */
+main {
+    padding: 20px;
+    text-align: center;
+}
+
+main img {
+    max-width: 100%;
+    height: auto;
+    border: 2px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Footer */
+.footer_resto {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.Titulo_principal {
+    position: absolute;
+}
+/* Estilo para fieldset */
+fieldset {
+    border: 2px solid #007BFF;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #f9f9f9;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+legend {
+    font-weight: bold;
+    color: #007BFF;
+    padding: 0 10px;
+}
+
+/* Estilo para inputs */
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="date"],
+textarea,
+select {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+textarea {
+    resize: vertical;
+}
+
+/* Botões */
+button[type="submit"],
+button[type="reset"] {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+button[type="submit"]:hover,
+button[type="reset"]:hover {
+    background-color: #0056b3;
+}
+li {
+    text-align: justify;
+}
+
+.footer_contato{
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: relative; /* Alterado de fixed para relative */
+    bottom: 0;
+    width: 100%;
+    margin-top: 20px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+h1{
+    font-family: verdana;
+}
